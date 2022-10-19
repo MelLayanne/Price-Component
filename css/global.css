@@ -5,6 +5,7 @@
     font-family:'Karla', sans-serif;
 }
 main{
+    padding-block: 4.5rem;
     padding-top: 4.5rem;
     padding-inline: 2rem;
 }
@@ -18,4 +19,8 @@ h2{
     font-size: 1.125rem;
     line-height: 1.375rem;
     color:#fff;
+    margin-bottom: 1.125rem;
+}
+body{
+    background-color: var(--LightGray);
 }
