@@ -13,4 +13,6 @@
 .Superior p:last-child{
     line-height: 1.625rem;
     color: var(--GrayishBlue);
+    font-size: 1.25rem;
 }
+
