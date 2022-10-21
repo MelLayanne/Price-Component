@@ -15,4 +15,53 @@
     color: var(--GrayishBlue);
     font-size: 1.25rem;
 }
+.Esquerda{
+    background-color: var(--Cyan);
+    padding: 1.5rem;
+}
 
+.Esquerda p:first-child{
+    color:#fff;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+}
+.Esquerda p:last-child{
+    color:#fff;
+    opacity: 0.5rem;
+}
+.Esquerda div{
+    display: flex;
+    margin-bottom: 0.25rem;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+}
+.Esquerda p{
+    color:#fff;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+}
+.Esquerda button{
+    padding-block: 1rem;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    border: none;
+    background-color: var(--BrightYellow);
+    border-radius: 0.3125rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+}
+.Direita{
+    background-color: var(--LightGray);
+    padding:1.5rem;
+    border-bottom-left-radius: 0.3125rem;
+    border-bottom-right-radius: 0.3125rem;
+}
+.Direita p{
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    color:#fff;
+    opacity: 0.75rem;
+}

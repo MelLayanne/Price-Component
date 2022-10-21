@@ -37,5 +37,4 @@ New videos every week
      2-git commit -am"atualização feita"
      3-git push origin main
 
-ctrl+'=terminal
 
