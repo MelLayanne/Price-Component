@@ -4,40 +4,39 @@
     border-radius: 0.3125rem;
     background-color: #fff;
 }
-.Superior p:first-child{
+.Superior .first{
     font-weight: 700;
     line-height: 1.25rem;
     color: var(--BrightYellow);
     margin-bottom: 1rem;
 }
-.Superior p:last-child{
+.Superior .second{
     line-height: 1.625rem;
     color: var(--GrayishBlue);
-    font-size: 1.25rem;
+    font-size:0.875rem;
 }
 .Esquerda{
     background-color: var(--Cyan);
     padding: 1.5rem;
 }
 
-.Esquerda p:first-child{
+.Esquerda .first{
     color:#fff;
     font-size: 2rem;
     font-weight: 700;
     line-height: 2.375rem;
 }
-.Esquerda p:last-child{
+.Esquerda .second{
     color:#fff;
-    opacity: 0.5rem;
+    opacity: 0.5;
 }
-.Esquerda div{
+.Esquerda .classe{
     display: flex;
     margin-bottom: 0.25rem;
     gap: 0.75rem;
-    justify-content: center;
     align-items: center;
 }
-.Esquerda p{
+.Esquerda  > p{
     color:#fff;
     line-height: 1.625rem;
     margin-bottom: 1.625rem;
@@ -54,7 +53,7 @@
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
 }
 .Direita{
-    background-color: var(--LightGray);
+    background-color: var(--LightCyan);
     padding:1.5rem;
     border-bottom-left-radius: 0.3125rem;
     border-bottom-right-radius: 0.3125rem;
@@ -63,5 +62,5 @@
     line-height: 1.25rem;
     font-size: 0.875rem;
     color:#fff;
-    opacity: 0.75rem;
+    opacity: 0.75;
 }
